@@ -8,7 +8,6 @@ class DemoCalc{
 	  DemoCalc obj=new DemoCalc();
 	  obj.arithOperate();
 	  
-	  
    }
    
    public void arithOperate(){
@@ -35,7 +34,6 @@ class DemoCalc{
 			   break;
 			   case 2:
 			     n1=n1-n2;
-				 
 			   break;
 			   case 3:
 			     n1=n1*n2;
@@ -47,8 +45,6 @@ class DemoCalc{
 			   System.out.println("invalid operator!!");
 			   continue AGAIN;
 		   }  
-		   
-		   op=n2=0;
 		   
 		   System.out.println("Result :: "+n1);
 		   
