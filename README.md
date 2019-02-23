@@ -1,2 +1,2 @@
-# demo-calc
-it is a simple command line calculator.
+# CoreJava
+it is contain only core java project.
