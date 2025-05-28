@@ -13,7 +13,7 @@ class DemoCalc{
 	   Integer n1=0, n2=0, op=0;
 	   Scanner sc=new Scanner(System.in);
 	   
-	   System.out.println("Enter first number");
+	   System.out.println("Enter first number - 1::");
        n1=sc.nextInt();
 	   
 	   AGAIN:
