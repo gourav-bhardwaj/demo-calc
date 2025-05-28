@@ -8,6 +8,10 @@ class DemoCalc{
 	  obj.arithOperate();
 	  
    }
+
+   public static void iesnrmae() {
+      System.out.println("Display function invoked");
+   }
    
    public void arithOperate(){
 	   Integer n1=0, n2=0, op=0, ko = n2;
