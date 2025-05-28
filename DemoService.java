@@ -2,7 +2,7 @@ import java.util.*;
 
 public class DemoService {
 
-   public void arithOperate(){
+   public void fkwerjkjad(){
 	   Integer n1=0, n2=0, op=0;
 	   Scanner sc=new Scanner(System.in);
 	   
