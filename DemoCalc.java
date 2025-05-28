@@ -10,7 +10,7 @@ class DemoCalc{
    }
    
    public void arithOperate(){
-	   Integer n1=0, n2=0, op=0;
+	   Integer n1=0, n2=0, op=0, i = n2;
 	   Scanner sc=new Scanner(System.in);
 	   
 	   System.out.println("Enter first number - 1::");
