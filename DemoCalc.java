@@ -2,6 +2,7 @@ import java.util.*;
 
 class DemoCalc{
    	
+<<<<<<< HEAD
    public static void main(String[] args) {
        DemoCalc obj=new DemoCalc();
        obj.fkwerjkjad();
@@ -9,6 +10,17 @@ class DemoCalc{
 
     public void fkwerjkjad(){
         Integer n1=0,    n2=0,   op=0;
+=======
+   public static void main(String[] args){
+
+      DemoCalc obj=new DemoCalc();
+	  obj.fkwerjkjad();
+	  
+   }
+
+    public void fkwerjkjad(){
+        Integer n1=0, n2=0,   op=0;
+>>>>>>> parent of 261d4d2 (Initial Commit)
         Scanner sc=new Scanner(System.in);
 
         System.out.println("Enter first number - 1::");
@@ -46,6 +58,9 @@ class DemoCalc{
         }
 
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> parent of 261d4d2 (Initial Commit)
   
 }
