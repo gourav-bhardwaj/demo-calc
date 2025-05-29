@@ -7,8 +7,8 @@ class DemoCalc {
        obj.fkwerjkjad();
    }
 
-    public void fkwerjkjad() {
-        Integer n1=0, n2=0,   op=0;
+    public int fkwerjkjad() {
+        Integer n1=0, n2=0, op=0;
         Scanner sc=new Scanner(System.in);
 
         System.out.println("Enter first number - 1::");
@@ -39,11 +39,8 @@ class DemoCalc {
                     System.out.println("invalid operator!!");
                     continue AGAIN;
             }
-
-            System.out.println("Result :: "+n1);
-
         }
-
+        return n1;
     }
 
 }
