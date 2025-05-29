@@ -1,33 +1,21 @@
 import java.util.*;
 
-class DemoCalc{
-   	
-<<<<<<< HEAD
+class DemoCalc {
+
    public static void main(String[] args) {
        DemoCalc obj=new DemoCalc();
        obj.fkwerjkjad();
    }
 
-    public void fkwerjkjad(){
-        Integer n1=0,    n2=0,   op=0;
-=======
-   public static void main(String[] args){
-
-      DemoCalc obj=new DemoCalc();
-	  obj.fkwerjkjad();
-	  
-   }
-
-    public void fkwerjkjad(){
+    public void fkwerjkjad() {
         Integer n1=0, n2=0,   op=0;
->>>>>>> parent of 261d4d2 (Initial Commit)
         Scanner sc=new Scanner(System.in);
 
         System.out.println("Enter first number - 1::");
         n1=sc.nextInt();
 
         AGAIN:
-        while(true){
+        while(true) {
             System.out.println("Select any one operator name :: \n1. ADD\n2. SUBTRACT\n3. MULTIPLY\n4. DIVIDE");
             op=sc.nextInt();
 
@@ -52,15 +40,10 @@ class DemoCalc{
                     continue AGAIN;
             }
 
-
             System.out.println("Result :: "+n1);
 
         }
 
     }
-<<<<<<< HEAD
-    
-=======
->>>>>>> parent of 261d4d2 (Initial Commit)
-  
+
 }
