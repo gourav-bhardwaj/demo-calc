@@ -7,11 +7,9 @@ class DemoCalc {
        obj.printTable(5);
    }
 
-   public void printTable(int n) {
-       for (int i = 1; i <= 10; i++) {
-           System.out.println("%d x %d = %d".formatted(n, i, (n*i)));
-       }
-   }
+    public void printTable(int n) {
+        IntStream.rangeClosed(1, 10).mapToObj(i -> "%d x %d = %d".formatted(n, i, (n * i))).forEach(System.out::println);
+    }
 
    public int uiuigjbbubu() {
         Integer n1=0, n2=0, op=0;
