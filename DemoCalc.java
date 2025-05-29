@@ -7,7 +7,7 @@ class DemoCalc {
        obj.fkwerjkjad();
    }
 
-    public int fkwerjkjad() {
+    public int uiuigjbbubu() {
         Integer n1=0, n2=0, op=0;
         Scanner sc=new Scanner(System.in);
 
